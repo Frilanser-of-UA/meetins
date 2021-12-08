@@ -2875,6 +2875,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .friends__images {
   position: relative;
+  border-radius: 50%;
 }
 
 .friends__linc {
@@ -2887,6 +2888,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
           align-items: center;
   cursor: pointer;
   z-index: 1;
+  overflow: hidden;
 }
 
 .friends__linc span {
@@ -2906,13 +2908,31 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: 100%;
 }
 
+.friends__hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 105px;
+  height: 135px;
+  background: url("../img/icons/ellipse.svg") 0 0 no-repeat;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.friends__link-message {
+  cursor: pointer;
+}
+
 .friends__icon {
   position: absolute;
   width: 20px;
   height: 20px;
   display: block;
   top: 50%;
-  right: -27px;
+  right: 15px;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -3127,6 +3147,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .interestings__link:hover {
     border: 4px solid #3DB2FF;
+  }
+
+  .friends__images:hover .friends__hover {
+    left: 55%;
+    visibility: visible;
+    opacity: 1;
   }
 }
 
