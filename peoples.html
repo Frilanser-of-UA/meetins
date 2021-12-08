@@ -1,1 +1,256 @@
-<!DOCTYPE html><html lang="ru"><head>	<title>Люди</title>	<meta charset="UTF-8">	<meta name="format-detection" content="telephone=no">	<link rel="stylesheet" href="css/style.min.css">	<link rel="icon" href="img/logotype.svg" type="images/svg">	<meta name="viewport" content="width=device-width, initial-scale=1.0"></head><body>	<div class="wrapper">		<header class="header header_bg-blue">	<div class="header__content">		<div class="header__body">			<a href="#" class="header__logo">				<picture><source srcset="img/logotype-white.svg" type="image/webp"><img src="img/logotype-white.svg" alt="logo"></picture>				<p class="header__label">Meetins</p>			</a>			<div class="header__menu menu">				<div class="menu__icon icon-menu">					<span></span>					<span></span>					<span></span>				</div>				<nav class="menu__body">					<ul class="menu__list">						<li class="menu__item menu__item_hover _active"><a href="#" class="menu__link menu__link_size">Люди</a></li>						<li class="menu__item menu__item_hover"><a href="#" class="menu__link menu__link_size">События</a></li>						<li class="menu__item menu__item_hover"><a href="#" class="menu__link menu__link_size">Интересы</a></li>						<li class="menu__item menu__item_hover"><a href="#" class="menu__link menu__link_size">Встречи</a></li>					</ul>				</nav>			</div>			<div class="header__user">				<div class="header__icon">					<picture><source srcset="img/icons/bell.svg" type="image/webp"><img src="img/icons/bell.svg" alt="иконка уведомлений"></picture>					<span>5</span>				</div>				<a href="#" class="header__avatar-user">					<picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.jpg" alt="аватарка пользователя"></picture>				</a>				<div class="header__name">					<a href="#" class="header__text">Дима</a>					<picture><source srcset="img/icons/arrow-profile.svg" type="image/webp"><img class="header__arrow" src="img/icons/arrow-profile.svg" alt="иконка стрелочки вниз"></picture>				</div>			</div>		</div>	</div></header>		<main class="page ">			<section class="page__peoples peoples-page">				<div class="peoples-page__container">					<sidebar class="peoples-page__sidebar sidebar">						<nav class="sidebar__menu">							<ul class="sidebar__list">								<li class="sidebar__item sidebar__item_margin"><a href="#" class="sidebar__link sidebar__link_size">Сообщения</a><span>7</span></li>								<li class="sidebar__item sidebar__item_margin"><a href="#" class="sidebar__link sidebar__link_size">Предложения</a><span>1</span></li>								<li class="sidebar__item sidebar__item_margin"><a href="#" class="sidebar__link sidebar__link_size">Места</a></li>								<li class="sidebar__item sidebar__item_margin"><a href="#" class="sidebar__link sidebar__link_size">Связи</a></li>							</ul>						</nav>					</sidebar>					<div class="peoples-page__body">						<ul class="peoples-page__list">							<li class="peoples-page__item _active"><a href="#" class="peoples-page__link">Поиск людей</a></li>							<li class="peoples-page__item"><a href="#" class="peoples-page__link">Лента</a></li>						</ul>						<form class="peoples-page__form form" action="#">							<div class="form__colum">								<div class="form__row">									<div class="form__label">Пол</div>									<label class=" form__checkbox checkbox ">										<input checked class="checkbox__input" type="radio" value="1" name="form[]">										<span class="checkbox__text"><span>М</span></span>									</label>									<label class=" form__checkbox checkbox ">										<input checked class="checkbox__input" type="radio" value="1" name="form[]">										<span class="checkbox__text"><span>Ж</span></span>									</label>								</div>								<div class="form__row">									<div class="form__label">Возраст</div>									<div class="form__line">										<span class="form__namber">19</span>										<input type="text" name="form[]" data-value="20" autocomplete="off" class="form__input input">										<span class="form__namber form__namber_position">21</span>									</div>								</div>								<div class="form__row">									<div class="form__label">Расстояние</div>									<div class="form__line">										<div class="form__sublabel">В городе</div>										<div class="form__range"></div>									</div>								</div>							</div>							<div class="form__colum">								<div class="form__label">Цель <span>я хочу</span></div>								<ul class="form__list">									<li class="form__item form__item_bg-1 form__item_active">Друзей</li>									<li class="form__item form__item_bg-2 form__item_active">Новые интересы</li>									<li class="form__item form__item_bg-3 form__item_active">Отношения</li>									<li class="form__item form__item_bg-4 form__item_active">Общения в сети</li>									<li class="form__item form__item_bg-5 form__item_active">Встречи</li>									<li class="form__item form__item_bg-6 form__item_active">События</li>								</ul>							</div>							<div class="form__colum">								<div class="form__label">В событиях</div>								<ul class="form__list">									<li class="form__item form__item_fontsize form__item_bg-7 form__item_active">Предстоящие</li>									<li class="form__item form__item_fontsize form__item_bg-8 form__item_active">История любовная <span>(16+)</span></li>									<li class="form__item form__item_fontsize form__item_bg-9 form__item_active">Энканто <span>(7+)</span></li>									<li class="form__item form__item_fontsize form__item_bg-10 form__item_active">По Москве на автобусе</li>								</ul>							</div>							<div class="form__colum">								<div class="form__label">По интересам</div>								<div class="form__search search">									<input class="search__input input" type="text" name="form[]" data-value="вязание">									<button class="search__button">										<picture><source srcset="img/icons/search.svg" type="image/webp"><img src="img/icons/search.svg" alt="иконка поиска"></picture>									</button>								</div>								<div class="form__popular">популярные:</div>								<ul class="form__list">									<li class="form__item form__item_padding">Программирование</li>									<li class="form__item form__item_padding">Бег</li>									<li class="form__item form__item_padding">Бизнес</li>								</ul>							</div>						</form>						<div class="peoples-page__friends friends">							<div class="friends__line">								<div class="friends__label">Показывать:</div>								<select class="friends__select form">									<option value="1" selected="selected">онлайн</option>									<option value="2">офлайн</option>									<option value="3">все</option>								</select>							</div>							<div class="friends__acaunts">								<div class="friends__row">									<div class="friends__item">										<div class="friends__images">											<a href="#" class="friends__linc">												<picture><source srcset="img/foto-user-1.webp" type="image/webp"><img class="friends__img" src="img/foto-user-1.jpg" alt="Фтография пользователя"></picture>												<span></span>											</a>											<picture><source srcset="img/icons/message-black.svg" type="image/webp"><img class="friends__icon" src="img/icons/message-black.svg" alt="иконка сообщения"></picture>											<picture><source srcset="img/icons/ellipse.svg" type="image/webp"><img class="friends__icon-elips" src="img/icons/ellipse.svg" alt="картика полуавала"></picture>										</div>										<div class="friends__name">Игорь</div>									</div>									<div class="friends__item">										<div class="friends__images">											<a href="#" class="friends__linc">												<picture><source srcset="img/foto-user-2.webp" type="image/webp"><img class="friends__img" src="img/foto-user-2.jpg" alt="Фтография пользователя"></picture>												<span></span>											</a>										</div>										<div class="friends__name">Алиса</div>									</div>								</div>								<div class="friends__row">									<div class="friends__item">										<div class="friends__images">											<a href="#" class="friends__linc">												<picture><source srcset="img/foto-user-3.webp" type="image/webp"><img class="friends__img" src="img/foto-user-3.jpg" alt="Фтография пользователя"></picture>												<span></span>											</a>										</div>										<div class="friends__name">Виктория</div>									</div>									<div class="friends__item">										<div class="friends__images">											<a href="#" class="friends__linc">												<picture><source srcset="img/foto-user-4.webp" type="image/webp"><img class="friends__img" src="img/foto-user-4.jpg" alt="Фтография пользователя"></picture>												<span></span>											</a>										</div>										<div class="friends__name">Денис</div>									</div>								</div>							</div>						</div>					</div>				</div>			</section>		</main>		<footer class="footer">	<div class="footer__content _container">		<div class="footer__body">			<a href="#" class="footer__link">Разработчикам</a>			<a href="#" class="footer__link-logo">				<picture><source srcset="img/logotype.svg" type="image/webp"><img src="img/logotype.svg" alt="logo"></picture>				<p class="footer__label">Meetins</p>			</a>			<div class="footer__sociums">				<a href="#" class="footer__link-socium"><picture><source srcset="img/icons/Vk.svg" type="image/webp"><img src="img/icons/Vk.svg" alt="ссылка иконка Vk"></picture></a>				<a href="#" class="footer__link-socium"><picture><source srcset="img/icons/facebook.svg" type="image/webp"><img src="img/icons/facebook.svg" alt="ссылка иконка facebook"></picture></a>				<a href="#" class="footer__link-socium"><picture><source srcset="img/icons/Youtube.svg" type="image/webp"><img src="img/icons/Youtube.svg" alt="ссылка иконка Youtube"></picture></a>			</div>		</div>	</div></footer>	</div>	<!-- Swiper --><!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> --><script src="js/vendors.min.js"></script><script src="js/app.min.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Люди</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="icon" href="img/logotype.svg" type="images/svg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header_bg-blue">
+			<div class="header__content">
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<picture>
+							<source srcset="img/logotype-white.svg" type="image/webp"><img src="img/logotype-white.svg" alt="logo">
+						</picture>
+						<p class="header__label">Meetins</p>
+					</a>
+					<div class="header__menu menu">
+						<div class="menu__icon icon-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item menu__item_hover _active"><a href="#" class="menu__link menu__link_size">Люди</a></li>
+								<li class="menu__item menu__item_hover"><a href="#" class="menu__link menu__link_size">События</a></li>
+								<li class="menu__item menu__item_hover"><a href="#" class="menu__link menu__link_size">Интересы</a></li>
+								<li class="menu__item menu__item_hover"><a href="#" class="menu__link menu__link_size">Встречи</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__user">
+						<div class="header__icon">
+							<picture>
+								<source srcset="img/icons/bell.svg" type="image/webp"><img src="img/icons/bell.svg" alt="иконка уведомлений">
+							</picture>
+							<span>5</span>
+						</div>
+						<a href="#" class="header__avatar-user">
+							<picture>
+								<source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.jpg" alt="аватарка пользователя">
+							</picture>
+						</a>
+						<div class="header__name">
+							<a href="#" class="header__text">Дима</a>
+							<picture>
+								<source srcset="img/icons/arrow-profile.svg" type="image/webp"><img class="header__arrow" src="img/icons/arrow-profile.svg" alt="иконка стрелочки вниз">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page ">
+			<section class="page__peoples peoples-page">
+				<div class="peoples-page__container">
+					<sidebar class="peoples-page__sidebar sidebar">
+						<nav class="sidebar__menu">
+							<ul class="sidebar__list">
+								<li class="sidebar__item sidebar__item_margin"><a href="#" class="sidebar__link sidebar__link_size">Сообщения</a><span>7</span></li>
+								<li class="sidebar__item sidebar__item_margin"><a href="#" class="sidebar__link sidebar__link_size">Предложения</a><span>1</span></li>
+								<li class="sidebar__item sidebar__item_margin"><a href="#" class="sidebar__link sidebar__link_size">Места</a></li>
+								<li class="sidebar__item sidebar__item_margin"><a href="#" class="sidebar__link sidebar__link_size">Связи</a></li>
+							</ul>
+						</nav>
+					</sidebar>
+					<div class="peoples-page__body">
+						<ul class="peoples-page__list">
+							<li class="peoples-page__item _active"><a href="#" class="peoples-page__link">Поиск людей</a></li>
+							<li class="peoples-page__item"><a href="#" class="peoples-page__link">Лента</a></li>
+						</ul>
+						<form class="peoples-page__form form" action="#">
+							<div class="form__colum">
+								<div class="form__row">
+									<div class="form__label">Пол</div>
+									<label class=" form__checkbox checkbox ">
+										<input checked class="checkbox__input" type="radio" value="1" name="form[]">
+										<span class="checkbox__text"><span>М</span></span>
+									</label>
+									<label class=" form__checkbox checkbox ">
+										<input checked class="checkbox__input" type="radio" value="1" name="form[]">
+										<span class="checkbox__text"><span>Ж</span></span>
+									</label>
+								</div>
+								<div class="form__row">
+									<div class="form__label">Возраст</div>
+									<div class="form__line">
+										<span class="form__namber">19</span>
+										<input type="text" name="form[]" data-value="20" autocomplete="off" class="form__input input">
+										<span class="form__namber form__namber_position">21</span>
+									</div>
+								</div>
+								<div class="form__row">
+									<div class="form__label">Расстояние</div>
+									<div class="form__line">
+										<div class="form__sublabel">В городе</div>
+										<div class="form__range"></div>
+									</div>
+								</div>
+							</div>
+							<div class="form__colum">
+								<div class="form__label">Цель <span>я хочу</span></div>
+								<ul class="form__list">
+									<li class="form__item form__item_bg-1 form__item_active">Друзей</li>
+									<li class="form__item form__item_bg-2 form__item_active">Новые интересы</li>
+									<li class="form__item form__item_bg-3 form__item_active">Отношения</li>
+									<li class="form__item form__item_bg-4 form__item_active">Общения в сети</li>
+									<li class="form__item form__item_bg-5 form__item_active">Встречи</li>
+									<li class="form__item form__item_bg-6 form__item_active">События</li>
+								</ul>
+							</div>
+							<div class="form__colum">
+								<div class="form__label">В событиях</div>
+								<ul class="form__list">
+									<li class="form__item form__item_fontsize form__item_bg-7 form__item_active">Предстоящие</li>
+									<li class="form__item form__item_fontsize form__item_bg-8 form__item_active">История любовная <span>(16+)</span></li>
+									<li class="form__item form__item_fontsize form__item_bg-9 form__item_active">Энканто <span>(7+)</span></li>
+									<li class="form__item form__item_fontsize form__item_bg-10 form__item_active">По Москве на автобусе</li>
+								</ul>
+							</div>
+							<div class="form__colum">
+								<div class="form__label">По интересам</div>
+								<div class="form__search search">
+									<input class="search__input input" type="text" name="form[]" data-value="вязание">
+									<button class="search__button">
+										<picture>
+											<source srcset="img/icons/search.svg" type="image/webp"><img src="img/icons/search.svg" alt="иконка поиска">
+										</picture>
+									</button>
+								</div>
+								<div class="form__popular">популярные:</div>
+								<ul class="form__list">
+									<li class="form__item form__item_padding">Программирование</li>
+									<li class="form__item form__item_padding">Бег</li>
+									<li class="form__item form__item_padding">Бизнес</li>
+								</ul>
+							</div>
+						</form>
+						<div class="peoples-page__friends friends">
+							<div class="friends__line">
+								<div class="friends__label">Показывать:</div>
+								<select class="friends__select form">
+									<option value="1" selected="selected">онлайн</option>
+									<option value="2">офлайн</option>
+									<option value="3">все</option>
+								</select>
+							</div>
+							<div class="friends__acaunts">
+								<div class="friends__row">
+									<div class="friends__item">
+										<div class="friends__images">
+											<a href="#" class="friends__linc">
+												<picture>
+													<source srcset="img/foto-user-1.webp" type="image/webp"><img class="friends__img" src="img/foto-user-1.jpg" alt="Фтография пользователя">
+												</picture>
+												<span></span>
+											</a>
+											<picture>
+												<source srcset="img/icons/message-black.svg" type="image/webp"><img class="friends__icon" src="img/icons/message-black.svg" alt="иконка сообщения">
+											</picture>
+											<picture>
+												<source srcset="img/icons/ellipse.svg" type="image/webp"><img class="friends__icon-elips" src="img/icons/ellipse.svg" alt="картика полуавала">
+											</picture>
+										</div>
+										<div class="friends__name">Игорь</div>
+									</div>
+									<div class="friends__item">
+										<div class="friends__images">
+											<a href="#" class="friends__linc">
+												<picture>
+													<source srcset="img/foto-user-2.webp" type="image/webp"><img class="friends__img" src="img/foto-user-2.jpg" alt="Фтография пользователя">
+												</picture>
+												<span></span>
+											</a>
+										</div>
+										<div class="friends__name">Алиса</div>
+									</div>
+
+								</div>
+								<div class="friends__row">
+									<div class="friends__item">
+										<div class="friends__images">
+											<a href="#" class="friends__linc">
+												<picture>
+													<source srcset="img/foto-user-3.webp" type="image/webp"><img class="friends__img" src="img/foto-user-3.jpg" alt="Фтография пользователя">
+												</picture>
+												<span></span>
+											</a>
+										</div>
+										<div class="friends__name">Виктория</div>
+									</div>
+									<div class="friends__item">
+										<div class="friends__images">
+											<a href="#" class="friends__linc">
+												<picture>
+													<source srcset="img/foto-user-4.webp" type="image/webp"><img class="friends__img" src="img/foto-user-4.jpg" alt="Фтография пользователя">
+												</picture>
+												<span></span>
+											</a>
+										</div>
+										<div class="friends__name">Денис</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__content _container">
+				<div class="footer__body">
+					<a href="#" class="footer__link">Разработчикам</a>
+					<a href="#" class="footer__link-logo">
+						<picture>
+							<source srcset="img/logotype.svg" type="image/webp"><img src="img/logotype.svg" alt="logo">
+						</picture>
+						<p class="footer__label">Meetins</p>
+					</a>
+					<div class="footer__sociums">
+						<a href="#" class="footer__link-socium">
+							<picture>
+								<source srcset="img/icons/Vk.svg" type="image/webp"><img src="img/icons/Vk.svg" alt="ссылка иконка Vk">
+							</picture>
+						</a>
+						<a href="#" class="footer__link-socium">
+							<picture>
+								<source srcset="img/icons/facebook.svg" type="image/webp"><img src="img/icons/facebook.svg" alt="ссылка иконка facebook">
+							</picture>
+						</a>
+						<a href="#" class="footer__link-socium">
+							<picture>
+								<source srcset="img/icons/Youtube.svg" type="image/webp"><img src="img/icons/Youtube.svg" alt="ссылка иконка Youtube">
+							</picture>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- Swiper -->
+	<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+	<script src="js/vendors.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
