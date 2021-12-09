@@ -2698,6 +2698,58 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   color: #232323;
 }
 
+.page {
+  position: relative;
+}
+
+.developers-page__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.developers-page__logo {
+  width: 200px;
+  display: block;
+  margin: 0px 50px 0px 0px;
+}
+
+.developers-page__logo img {
+  width: 100%;
+}
+
+.developers-page__title {
+  font-weight: 200;
+  font-size: 72px;
+  line-height: 108.4%;
+  margin: 0px 0px 5px 0px;
+}
+
+.developers-page__label {
+  font-size: 42px;
+  line-height: 108.4%;
+}
+
+.developers-page__text {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 108.4%;
+}
+
 .page__peoples {
   margin: 0px 0px 200px 0px;
 }
