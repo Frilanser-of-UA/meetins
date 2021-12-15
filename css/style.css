@@ -1,3 +1,4 @@
+/* ====================Шрифты================================== */
 @font-face {
   font-family: "Nunito";
   font-display: swap;
@@ -37,7 +38,8 @@
   font-weight: 600;
   font-style: normal;
 }
-
+/* =============================================================== */
+/* =========================Обнуление стилей======================= */
 * {
   padding: 0px;
   margin: 0px;
@@ -136,6 +138,8 @@ body {
 body._lock {
   overflow: hidden;
 }
+/* =============================================================== */
+/* =======================Общие стили main======================================== */
 
 .wrapper {
   width: 100%;
@@ -154,7 +158,8 @@ body._lock {
   max-width: 1170px;
   margin: 0 auto;
 }
-
+/* =============================================================== */
+/* ====================общие сстили форм=========================================== */
 .btn {
   width: 245px;
   height: 70px;
@@ -379,6 +384,8 @@ textarea.input {
   border: 1px solid rgba(61, 178, 255, 0.5);
   border-radius: 50%;
 }
+/* =============================================================== */
+/* ==========================общие стили повторяющихся блоков================ */
 
 .title {
   font-size: 36px;
@@ -463,6 +470,8 @@ textarea.input {
   font-size: 24px;
   line-height: 33px;
 }
+/* =============================================================== */
+/* ===========================lite gallery==================================== */
 
 .lg-actions .lg-next,
 .lg-actions .lg-prev {
@@ -1543,6 +1552,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -o-transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
   transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
 }
+/* =============================================================== */
 
 /*! nouislider - 14.6.0 - 6/27/2020 */
 
@@ -1919,6 +1929,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   top: auto;
   right: 28px;
 }
+/* ================================================== */
+/* ======================header============================ */
 
 .header {
   background-color: #000000;
@@ -2129,7 +2141,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .icon-menu {
   display: none;
 }
-
+/* ========================================================= */
+/* ===========================footer============================== */
 .footer {
   background: #E5E5E5;
 }
@@ -2189,7 +2202,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .footer__link-socium:last-child {
   margin: 0px 0px 0px 0px;
 }
-
+/* ========================================================= */
+/* ========================Главная main================================= */
 .page {
   background: #E5E5E5;
 }
@@ -2275,7 +2289,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
       -ms-flex: 0 1 700px;
           flex: 0 1 700px;
 }
-
+/* ========================================================= */
+/* ========================Профиль main================================= */
 .page_bg {
   background: #E5E5E5;
 }
@@ -2437,7 +2452,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .profile-page__interestings {
   margin: 0px 15px 0px 0px;
 }
-
+/* ========================================================= */
+/* ========================Профиль main интересы================================= */
 .interestings {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
@@ -2492,6 +2508,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 ._no-webp .interestings__link_bg4 {
   background: url("../img/Yoga.jpg") center/cover no-repeat; }
+/* ========================================================= */
+/* ========================Профиль main блок места================================= */
 
 .places {
   -webkit-box-flex: 0;
@@ -2518,6 +2536,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .places__link:last-child {
   margin: 0px 0px 0px 0px;
 }
+/* ========================================================= */
+/* ========================Профиль main галерея================================= */
 
 .gallery a {
   display: block;
@@ -2552,6 +2572,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .gallery__item img {
   width: 100%;
 }
+/* ========================================================= */
+/* ========================Для разработчиков main ================================= */
 
 .page__dev {
   margin: 100px 0px 0px 0px;
@@ -2629,6 +2651,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .dev-page__linc_vk::before {
   background: url("../img/icons/vk-black.svg") 0 0 no-repeat;
 }
+/* ========================================================= */
+/* ========================Для разработчиков main спойлер================================= */
 
 .spollers__item {
   margin: 0px 0px 50px 0px;
@@ -2697,6 +2721,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   line-height: 125%;
   color: #232323;
 }
+/* ========================================================= */
+/* ========================В разработке main================================= */
 
 .page {
   position: relative;
@@ -2749,6 +2775,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   font-size: 18px;
   line-height: 108.4%;
 }
+/* ========================================================= */
+/* ========================Для Люди main================================= */
 
 .page__peoples {
   margin: 0px 0px 200px 0px;
@@ -2829,6 +2857,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   display: -ms-flexbox;
   display: flex;
 }
+/* ========================================================= */
+/* ========================Для разработчиков main форма================================= */
 
 .form__colum {
   padding: 0px 15px;
@@ -2981,6 +3011,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   font-weight: 300;
   margin: 0px 0px 15px 0px;
 }
+/* ========================================================= */
+/* ========================Для разработчиков main Онлайн друзья================================= */
 
 .friends__line {
   display: -webkit-box;
@@ -3100,6 +3132,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   top: 0;
   left: 50%;
 }
+/* ========================================================= */
+/* ========================Стили адаптива================================= */
 
 .page {
   -webkit-box-flex: 1;
@@ -3290,6 +3324,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     bottom: calc(50% - 1px);
   }
 }
+/* ========================================================= */
+/* ========================Стили ховер================================= */
 
 @media (any-hover: hover) {
   .menu__item:hover::before {
@@ -3312,7 +3348,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     opacity: 1;
   }
 }
-
+/* Общие стили для работы с картинками */
 ._webp .lg-outer .lg-has-vimeo .lg-video-play { background: url(../img/vimeo-play.webp) no-repeat scroll 0 0 transparent; }
 
 ._webp .lg-outer .lg-has-vimeo:hover .lg-video-play { background: url(../img/vimeo-play.webp) no-repeat scroll 0 -58px transparent; }
